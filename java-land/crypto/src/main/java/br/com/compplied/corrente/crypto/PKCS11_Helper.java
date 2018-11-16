@@ -18,7 +18,7 @@
 /*																				*/
 /********************************************************************************/
 
-package br.com.compplied.corrente.crypto.crypto;
+package br.com.compplied.corrente.crypto;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -61,15 +61,12 @@ import java.util.List;
 import javax.crypto.Cipher;
 
 import br.com.compplied.corrente.crypto.launchers.Runtime;
-
-import org.jdamico.scryptool.commons.Constants;
-
-
 import sun.security.pkcs11.wrapper.CK_C_INITIALIZE_ARGS;
 import sun.security.pkcs11.wrapper.PKCS11;
 
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
+import br.com.compplied.corrente.crypto.commons.Constants;
 import br.com.compplied.corrente.crypto.commons.TopLevelException;
 import br.com.compplied.corrente.crypto.commons.Utils;
 import br.com.compplied.corrente.crypto.entities.CertificationChainAndSignatureBase64;

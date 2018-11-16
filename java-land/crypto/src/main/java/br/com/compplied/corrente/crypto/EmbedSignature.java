@@ -18,7 +18,7 @@
 /*																				*/
 /********************************************************************************/
 
-package br.com.compplied.corrente.crypto.crypto;
+package br.com.compplied.corrente.crypto;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;

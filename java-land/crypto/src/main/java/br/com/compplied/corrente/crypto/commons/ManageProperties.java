@@ -18,14 +18,13 @@
 /*																				*/
 /********************************************************************************/
 
-package org.jdamico.scryptool.commons;
+package br.com.compplied.corrente.crypto.commons;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import br.com.compplied.corrente.crypto.commons.TopLevelException;
 import br.com.compplied.corrente.crypto.entities.AppProperties;
 
 

@@ -38,7 +38,7 @@
 /*																				*/
 /********************************************************************************/
 
-package org.jdamico.scryptool.commons;
+package br.com.compplied.corrente.crypto.commons;
 
 public interface Constants {
 	public static final String PKCS11_KEYSTORE_TYPE = "PKCS11";

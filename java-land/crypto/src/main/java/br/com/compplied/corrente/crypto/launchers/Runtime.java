@@ -33,12 +33,12 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 import org.apache.log4j.RollingFileAppender;
-import org.jdamico.scryptool.commons.Constants;
-import org.jdamico.scryptool.commons.ManageProperties;
 
+import br.com.compplied.corrente.crypto.PKCS11_Helper;
+import br.com.compplied.corrente.crypto.commons.Constants;
+import br.com.compplied.corrente.crypto.commons.ManageProperties;
 import br.com.compplied.corrente.crypto.commons.TopLevelException;
 import br.com.compplied.corrente.crypto.commons.Utils;
-import br.com.compplied.corrente.crypto.crypto.PKCS11_Helper;
 import br.com.compplied.corrente.crypto.entities.AppProperties;
 
 

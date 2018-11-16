@@ -18,7 +18,7 @@
 /*																				*/
 /********************************************************************************/
 
-package br.com.compplied.corrente.crypto.crypto;
+package br.com.compplied.corrente.crypto;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -41,10 +41,9 @@ import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.List;
 
-import org.jdamico.scryptool.commons.Constants;
-
 import com.sun.org.apache.xml.internal.security.utils.Base64;
 
+import br.com.compplied.corrente.crypto.commons.Constants;
 import br.com.compplied.corrente.crypto.commons.TopLevelException;
 import br.com.compplied.corrente.crypto.commons.Utils;
 import br.com.compplied.corrente.crypto.entities.CertificationChainAndSignatureBase64;

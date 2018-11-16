@@ -38,9 +38,9 @@ import javax.swing.JTextField;
 
 import org.apache.pdfbox.exceptions.COSVisitorException;
 
+import br.com.compplied.corrente.crypto.EmbedSignature;
+import br.com.compplied.corrente.crypto.PKCS11_Helper;
 import br.com.compplied.corrente.crypto.commons.TopLevelException;
-import br.com.compplied.corrente.crypto.crypto.EmbedSignature;
-import br.com.compplied.corrente.crypto.crypto.PKCS11_Helper;
 
 public class SignatureUI extends JFrame implements ActionListener {
 

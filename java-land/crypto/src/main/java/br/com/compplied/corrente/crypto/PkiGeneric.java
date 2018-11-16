@@ -18,7 +18,7 @@
 /*																				*/
 /********************************************************************************/
 
-package br.com.compplied.corrente.crypto.crypto;
+package br.com.compplied.corrente.crypto;
 
 import java.io.File;
 import java.security.KeyStore;
